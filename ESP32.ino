@@ -8,7 +8,7 @@ void setup()
 void loop() 
 {
     
-   float a = analogRead(1);
+   float a = analogRead(25);
    float b = ((a*5*3.3)/4095)+0.6;
     Serial.print("Voltage:");
     Serial.println(b);
